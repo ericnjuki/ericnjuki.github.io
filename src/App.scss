@@ -9,6 +9,30 @@ html {
 	padding: 0;
 }
 
+.top-color-bar {
+  background: rgb(0,18,25);
+  background: linear-gradient(to right,
+  rgba(0,18,25,1) 10%,
+  rgba(0,95,115,1) 10%,
+  rgba(0,95,115,1) 20%,
+  rgba(10,147,150,1) 20%,
+  rgba(10,147,150,1) 30%,
+  rgba(148,210,189,1) 30%,
+  rgba(148,210,189,1) 40%,
+  rgba(233,216,166,1) 40%,
+  rgba(233,216,166,1) 50%,
+  rgba(238,155,0,1) 50%,
+  rgba(238,155,0,1) 60%,
+  rgba(202,103,2,1) 60%,
+  rgba(202,103,2,1) 70%,
+  rgba(187,62,3,1) 70%,
+  rgba(187,62,3,1) 80%,
+  rgba(174,32,18,1) 80%,
+  rgba(174,32,18,1) 90%,
+  rgba(155,34,38,1) 90%,
+  rgba(155,34,38,1) 100%);
+  height: 9px;
+}
 .aligner {
 	display: flex;
 	align-items: center;
@@ -38,12 +62,13 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
+	// background-color: #731702;
 	background-color: #e9d5a1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	padding-top: 0;
 	padding-bottom: 0;
 }
 
@@ -83,10 +108,14 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
+	// color: #e9d5a1;
 	color: #353239;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
+}
+.title-container p {
+	// color: #AC8C74;
 }
 
 .slider-image {
@@ -108,7 +137,8 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	// background: #fff;
+	background: #f1faee;
 	overflow: hidden;
 }
 

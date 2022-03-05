@@ -1,17 +1,17 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Eric Njuki",
+      "titles": [ "Full Stack Developer", "Front-end Engineer", "Dev Team lead", "Back-end Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/ericnjuki",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "twitter",
+          "url": "https://www.twitter.com/ericnjuki",
+          "class": "fab fa-twitter"
         }
       ],
       "image": "myProfile.jpg"
@@ -19,14 +19,34 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "name": "SQL Server",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "60"
+        },
+        {
+          "name": ".NET Core",
+          "class": "devicon-dotnetcore-plain",
+          "level": "60"
+        },
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "60"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Vue",
+          "class": "devicon-vuejs-plain",
+          "level": "80"
         },
         {
           "name": "Angular",
@@ -39,9 +59,14 @@
           "level": "90"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
         },
         {
           "name": "Sass",
@@ -54,14 +79,9 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Wordpress",
+          "class": "devicon-wordpress-plain",
+          "level": "85"
         }
       ]
     }
