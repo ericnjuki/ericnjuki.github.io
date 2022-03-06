@@ -12,6 +12,18 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+
+      var enModalDescription = function() {
+        if (description) {
+          var paragraphs = description.split('\n');
+          var paragraphElements = "";
+          for (let i = 0; i < paragraphs.length; i++) {
+            paragraphElements += `<p className="modal-description">${paragraphs[i]}</p>`;
+          }
+        }
+        return paragraphElements;
+      }();
+
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -93,7 +105,7 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <div dangerouslySetInnerHTML={{ __html: enModalDescription }} />
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

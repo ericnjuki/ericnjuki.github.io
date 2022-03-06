@@ -171,10 +171,16 @@ header h1 {
 }
 
 .project-title-settings {
-	margin-top: 5%;
+	margin-top: 20px;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+}
+.project-subtitle {
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: lowercase;
 	color: black;
 	text-align: center;
 }
@@ -299,6 +305,12 @@ header h1 {
 
 .modal-inside .modal-content {
 	background: white;
+}
+.modal-inside .modal-content p {
+  text-align: justify;
+	padding: 5px 5px 0 5px;
+	margin-bottom: 20px;
+	font-size: 1.5rem;
 }
 
 .bars {
