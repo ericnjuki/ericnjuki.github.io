@@ -122,6 +122,7 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
         <Projects
+          resumeProfessionalProjects={this.state.resumeData.professionalProjects}
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
