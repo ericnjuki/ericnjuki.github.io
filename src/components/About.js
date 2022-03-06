@@ -79,7 +79,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello} <span role="img" aria-label="hello emoji">👋</span> </span>
                     <br />
                     <br />
                     {about}

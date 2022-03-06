@@ -27,6 +27,10 @@ class Footer extends Component {
                   ? this.props.sharedBasicInfo.name
                   : "???"}
               </small>
+              <br/>
+              <small>
+                design by<a href="https://github.com/Dorota1997/react-frontend-dev-portfolio"> Dorota1997 </a><span role="img" aria-label="thanks emoji">🙏</span>
+              </small>
             </div>
           </div>
         </div>

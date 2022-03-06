@@ -13,6 +13,36 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
+        var enIcon = function() {
+          var faIconClass = "fa-check";
+          switch (work.expId) {
+            case "exp-first-lang":
+              faIconClass = "fa-code";
+              break;
+            case "exp-shopassist":
+              faIconClass = "fa-store";
+              break;
+            case "exp-usiu":
+              faIconClass = "fa-desktop";
+              break;
+            case "exp-wekezapp":
+              faIconClass = "fa-coin";
+              break;
+            case "exp-bk":
+              faIconClass = "fa-hamburger";
+              break;
+            case "exp-grad":
+              faIconClass = "fa-graduation-cap";
+              break;
+            case "exp-phss":
+              faIconClass = "fa-truck";
+              break;
+          
+            default:
+              break;
+          }
+          return (<i className={"fa "+ faIconClass +" experience-icon"}></i>);
+        }();
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -37,7 +67,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={enIcon}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

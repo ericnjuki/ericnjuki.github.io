@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Eric, currently a freelance full stack developer and designer. I work with a wide array of tech including C#, JavaScript, Angular, SQL Server, Azure and more. Learning Vue and Node.js at the moment and always, always learning JavaScript. If you'd like to talk, shoot me an email or message me on twitter, details at the bottom of the page.",
+      "description_header": "Hello",
+      "description": "I'm Eric, currently a freelance full stack developer and designer. I work with a wide array of tech including C#, JavaScript, Angular, SQL Server, Azure and more. I'm also learning Vue and Node.js at the moment and always, always learning JavaScript. If you'd like to talk, shoot me an email or message me on twitter, details at the bottom of the page.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -15,7 +15,7 @@
         "startDate": "2022",
         "description": "Founded in 2011, Ports & Harbours Support Services (PHSS) has been selling handling equipment (cranes, forklifts, trucks) in East Africa for over a decade. While they accomplished much since they started, they felt it was time put their business online and expand their customer base./n/nFor this, they had a clear design and content strategy which made the task much easier./n/nIn fact the only significant challenge was the fact that I'd never worked with Wordpress at all, a challenge quickly surmounted by the sheer amount of resources and help available for the most popular CMS engine./n/nWhat resulted was a website PHSS were very satisfied with borne through a process I had a lot fun learning and growing with.",
         "images": [
-          "images/portfolio/phss/PHSS-logo.png",
+          "images/portfolio/phss/PHSS-Logo2.png",
           "images/portfolio/phss/p2.jpg"
         ],
         "url": "https://ports-harbours.com",
@@ -35,7 +35,7 @@
         "startDate": "2021",
         "description": "Official website for Burger King Kenya",
         "images": [
-          "images/portfolio/bk/BK-Logo.png",
+          "images/portfolio/bk/BK-Logo2.png",
           "images/portfolio/bk/p2.jpg"
         ],
         "url": "https://burgerking.ke",
@@ -59,7 +59,7 @@
         "startDate": "2017",
         "description": "My first app ever. It's  simple inventory management system.",
         "images": [
-          "images/portfolio/shopassist/ShopAssist-Logo.png",
+          "images/portfolio/shopassist/ShopAssist-Logo2.png",
           "images/portfolio/shopassist/p2.jpg"
         ],
         "url": "https://ericnjuki.github.io/shopassist",
@@ -105,9 +105,10 @@
     ],
     "experience": [
       {
+        "expId": "exp-phss",
         "company": "Ports & Harbours Website",
         "title": "Full Stack Developer",
-        "years": "01.2022 - present",
+        "years": "Jan 2022 - present",
         "mainTech": [
           "Wordpress"
         ],
@@ -120,9 +121,21 @@
         ]
       },
       {
+        "expId": "exp-grad",
+        "company": "Moi University",
+        "title": "BSc Computer Science",
+        "years": "Aug 2021",
+        "mainTech": [
+          "Graduation"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "expId": "exp-bk",
         "company": "Burger King Kenya",
         "title": "Front-End Developer",
-        "years": "03.2021 - 12.2021",
+        "years": "Mar 2021 - Dec 2021",
         "mainTech": [
           "JavaScript"
         ],
@@ -135,9 +148,10 @@
         ]
       },
       {
+        "expId": "exp-wekezapp",
         "company": "Wekezapp",
         "title": "Full Stack Developer",
-        "years": "11.2019 - 12.2020",
+        "years": "Sep 2019 - Dec 2020",
         "mainTech": [
           "Angular 7"
         ],
@@ -152,9 +166,10 @@
         ]
       },
       {
+        "expId": "exp-usiu",
         "company": "USIU Africa",
         "title": "Intern",
-        "years": "01.2019 - 04.2019",
+        "years": "Jan 2019 - Apr 2019",
         "mainTech": [
           "Linux"
         ],
@@ -169,9 +184,10 @@
         ]
       },
       {
+        "expId": "exp-shopassist",
         "company": "ShopAssist",
         "title": "Software Developer",
-        "years": "01.2017 - 12.2017",
+        "years": "Jan 2017 - Dec 2017",
         "mainTech": [
           "Angular 4"
         ],
@@ -184,6 +200,17 @@
           "RxJS",
           "Bootstrap",
           "Angular Material"
+        ]
+      },
+      {
+        "expId": "exp-first-lang",
+        "company": "First Programming Language!",
+        "title": "Developer",
+        "years": "Jun 2015 - Dec 2015",
+        "mainTech": [
+          "C Programming Language"
+        ],
+        "technologies": [
         ]
       }
     ]
