@@ -25,11 +25,10 @@ class Footer extends Component {
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
-                  : "???"}
+                  : "???"}&nbsp;
               </small>
-              <br/>
               <small>
-                design by<a href="https://github.com/Dorota1997/react-frontend-dev-portfolio"> Dorota1997 </a><span role="img" aria-label="thanks emoji">🙏</span>
+              •<a href="https://github.com/Dorota1997/react-frontend-dev-portfolio">&nbsp;theme</a>
               </small>
             </div>
           </div>
