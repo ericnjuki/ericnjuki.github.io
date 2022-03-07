@@ -20,6 +20,6 @@ View it <a href="https://ericnjuki.github.io"><strong>here</strong></a>
 
 <pre>
 ⭐ Portfolio template was designed and created by <a href="https://github.com/Dorota1997/react-frontend-dev-portfolio">Dorota1997</a>
-You can find all the amazing people 
+You can find her and all the amazing people 
 who contributed to the project in the link
 </pre>
