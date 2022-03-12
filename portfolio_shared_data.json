@@ -12,6 +12,11 @@
           "name": "twitter",
           "url": "https://www.twitter.com/ericnjuki",
           "class": "fab fa-twitter"
+        },
+        {
+          "name": "email",
+          "url": "mailto:contact@ericnjuki.com",
+          "class": "fa fa-envelope"
         }
       ],
       "image": "myProfile.jpg"
