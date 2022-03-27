@@ -20,7 +20,8 @@ class Header extends Component {
     var dataThemeAttribute = "data-theme";
     var body = document.body;
     var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+      // body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+      body.getAttribute(dataThemeAttribute) === "dark-2" ? "dark-2" : "dark-2";
     body.setAttribute(dataThemeAttribute, newTheme);
   }
 
@@ -47,7 +48,7 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <Switch
+              {/* <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
@@ -86,7 +87,7 @@ class Header extends Component {
                   ></span>
                 }
                 id="icon-switch"
-              />
+              /> */}
             </div>
           </div>
         </div>
