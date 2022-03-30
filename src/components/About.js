@@ -90,7 +90,7 @@ class About extends Component {
                     </span>
                     <span key="github" className="m-1">
                       To see more projects, check out&nbsp;
-                      <a href="mailto:contact@ericnjuki.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/ericnjuki" target="_blank" rel="noopener noreferrer">
                           my GitHub <i className="fab fa-github"></i>
                       </a>
                     </span>
