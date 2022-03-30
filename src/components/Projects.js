@@ -43,6 +43,11 @@ class Projects extends Component {
                   <p className="project-subtitle">
                     {professionalProjects.subtitle}
                   </p>
+                  {professionalProjects.technologies.map((tech) => {
+                    return(
+                      <span className="en-tech-tag">{tech.name}</span>
+                    )
+                  })}
                 </div>
               </div>
             </span>
@@ -65,14 +70,19 @@ class Projects extends Component {
                     height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-5">
+                  {/* <span className="project-date">{projects.startDate}</span>
+                  <br /> */}
+                  <p className="project-title-settings en-project-title-settings">
                     {projects.title}
                   </p>
                   <p className="project-subtitle">
                     {projects.subtitle}
                   </p>
+                  {projects.technologies.map((tech) => {
+                    return(
+                      <span className="en-tech-tag">{tech.name}</span>
+                    )
+                  })}
                 </div>
               </div>
             </span>
@@ -85,16 +95,16 @@ class Projects extends Component {
       <section id="portfolio">
         <div className="col-md-12">
           <h1 className="section-title">
-            <span>{sectionNameProfessional}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{professionalProjects}</div>
-          </div>
-          <h1 className="section-title">
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
+          </div>
+          <h1 className="section-title">
+            <span>{sectionNameProfessional}</span>
+          </h1>
+          <div className="col-md-12 mx-auto">
+            <div className="row mx-auto">{professionalProjects}</div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}

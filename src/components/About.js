@@ -83,6 +83,17 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <span key="email" className="m-1">
+                      <a href="mailto:contact@ericnjuki.com" target="_blank" rel="noopener noreferrer">
+                        shoot me an email <i className="fa fa-envelope"></i>.
+                      </a>
+                    </span>
+                    <span key="github" className="m-1">
+                      To see more projects, check out&nbsp;
+                      <a href="mailto:contact@ericnjuki.com" target="_blank" rel="noopener noreferrer">
+                          my GitHub <i className="fab fa-github"></i>
+                      </a>
+                    </span>
                   </div>
                 </div>
               </div>

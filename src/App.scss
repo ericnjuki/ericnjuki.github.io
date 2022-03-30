@@ -140,7 +140,7 @@ header h1 {
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
-	padding: 10px 10px 5px;
+  padding: 10px 10px 10px 5px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -179,11 +179,25 @@ header h1 {
 	color: black;
 	text-align: center;
 }
+.en-project-title-settings {
+  margin-top: 0;
+}
+
 .project-subtitle {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: lowercase;
 	color: black;
 	text-align: center;
+}
+.en-tech-tag {
+  background-color: #696969;
+  color: white;
+  margin: 2px;
+  text-transform: lowercase;
+  padding: 2px 6px 4px 6px;
+  border-radius: 6px;
+  display: inline-flex;
+  font-size: 12px;
 }
 
 .polaroid img {
