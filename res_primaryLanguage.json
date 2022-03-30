@@ -1,41 +1,16 @@
 {
     "basic_info": {
       "description_header": "Hello",
-      "description": "I'm Eric, currently a freelance full stack developer and designer. I work with a wide array of tech including C#, JavaScript, Angular, SQL Server, Azure and more. I'm also learning Vue and Node.js at the moment and always, always learning JavaScript. If you'd like to talk, shoot me an email or message me on twitter, details at the bottom of the page.",
+      "description": "I'm Eric, currently a freelance full stack developer and designer. I work with a wide array of tech including C#, JavaScript, Angular, SQL Server, Azure and more. I'm learning React and Node.js at the moment. If you'd like to talk,",
       "section_name": {
         "about": "About me",
+        "projects": "Projects",
         "professionalProjects": "Professional Projects",
-        "projects": "Personal Projects",
         "skills": "Skills",
         "experience": "Developer Story"
       }
     },
     "professionalProjects": [
-      {
-        "title": "Ports & Harbours",
-        "subtitle": "Company Website",
-        "startDate": "2022",
-        "description": "Founded in 2011, Ports & Harbours Support Services (PHSS) has been selling handling equipment (cranes, forklifts, trucks) in East Africa for over a decade. While they accomplished much since they started, they felt it was time put their business online and expand their customer base.\nFor this, they had a clear design and content strategy which made the task much easier.\nIn fact the only significant challenge was the fact that I'd never worked with Wordpress at all, a challenge quickly surmounted by the sheer amount of resources and help available for the most popular CMS engine.\nWhat resulted was a website PHSS were very satisfied with borne through a process I had a lot fun learning and growing with.",
-        "images": [
-          "images/portfolio/phss/PHSS-Logo2.png",
-          "images/portfolio/phss/PHSS_Home_Page.png",
-          "images/portfolio/phss/PHSS_Home_Page2.png",
-          "images/portfolio/phss/PHSS_Custom_Map.png",
-          "images/portfolio/phss/PHSS_About.png",
-          "images/portfolio/phss/PHSS_Services.png"
-        ],
-        "url": "https://ports-harbours.com",
-        "technologies": [
-          {
-            "class": "devicon-wordpress-plain colored",
-            "name": "Wordpress"
-          },
-          {
-            "class": "devicon-azure-plain colored",
-            "name": "Azure"
-          }
-        ]
-      },
       {
         "title": "Burger King Kenya",
         "subtitle": "Restaurant Chain Website",
@@ -59,9 +34,15 @@
           {
             "class": "devicon-javascript-plain colored",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-azure-plain colored",
+            "name": "Azure"
           }
         ]
-      },
+      }
+    ],
+    "projects": [
       {
         "title": "Shop Assist",
         "subtitle": "#FirstApp, simple point-of-Sale system",
@@ -80,42 +61,12 @@
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain colored",
-            "name": "TypeScript"
-          },
-          {
             "class": "devicon-csharp-plain colored",
             "name": "C#"
-          }
-        ]
-      }
-    ],
-    "projects": [
-      {
-        "title": "html5 Routing Template",
-        "subtitle": "HTML5 Coding Template",
-        "startDate": "2021",
-        "description": "Bare bones HTML5 template with routing",
-        "images": [
-          "images/portfolio/html5-vue-router/html5-routing-template-logo.png"
-        ],
-        "url": "https://github.com/ericnjuki/html5-with-routing",
-        "technologies": [
-          {
-            "class": "devicon-vuejs-plain colored",
-            "name": "Vue"
           },
           {
-            "class": "devicon-html5-plain colored",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-css3-plain colored",
-            "name": "C#"
-          },
-          {
-            "class": "devicon-gruntjs-plain colored",
-            "name": "Grunt.js"
+            "class": "devicon-dotnetcore-plain",
+            "name": ".NET"
           }
         ]
       },
@@ -135,12 +86,67 @@
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain colored",
-            "name": "TypeScript"
-          },
-          {
             "class": "devicon-csharp-plain colored",
             "name": "C#"
+          },
+          {
+            "class": "devicon-dotnetcore-plain",
+            "name": ".NET"
+          }
+        ]
+      },
+      {
+        "title": "html5 Routing Template",
+        "subtitle": "HTML5 Coding Template",
+        "startDate": "2021",
+        "description": "Bare bones HTML5 template with routing",
+        "images": [
+          "images/portfolio/html5-vue-router/html5-routing-template-logo.png"
+        ],
+        "url": "https://github.com/ericnjuki/html5-with-routing",
+        "technologies": [
+          {
+            "class": "devicon-vuejs-plain colored",
+            "name": "Vue"
+          },
+          {
+            "class": "devicon-grunt-plain colored",
+            "name": "Grunt.js"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "Html"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "archivedProjects": [
+      {
+        "title": "Ports & Harbours",
+        "subtitle": "Company Website",
+        "startDate": "2022",
+        "description": "Founded in 2011, Ports & Harbours Support Services (PHSS) has been selling handling equipment (cranes, forklifts, trucks) in East Africa for over a decade. While they accomplished much since they started, they felt it was time put their business online and expand their customer base.\nFor this, they had a clear design and content strategy which made the task much easier.\nIn fact the only significant challenge was the fact that I'd never worked with Wordpress at all, a challenge quickly surmounted by the sheer amount of resources and help available for the most popular CMS engine.\nWhat resulted was a website PHSS were very satisfied with borne through a process I had a lot fun learning and growing with.",
+        "images": [
+          "images/portfolio/phss/PHSS-Logo2.png",
+          "images/portfolio/phss/PHSS_Home_Page.png",
+          "images/portfolio/phss/PHSS_Home_Page2.png",
+          "images/portfolio/phss/PHSS_Custom_Map.png",
+          "images/portfolio/phss/PHSS_About.png",
+          "images/portfolio/phss/PHSS_Services.png"
+        ],
+        "url": "https://ports-harbours.com",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain colored",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-azure-plain colored",
+            "name": "Azure"
           }
         ]
       }
