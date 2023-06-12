@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import vueIcon from "@iconify/icons-logos/vue";
-import javascriptIcon from "@iconify/icons-logos/javascript";
-import csharpIcon from "@iconify/icons-logos/c-sharp";
+import nextjsIcon from "@iconify/icons-logos/nextjs";
+import typeScriptIcon from "@iconify/icons-logos/typescript";
+import mongoIcon from "@iconify/icons-logos/mongodb";
 // import angularIcon from "@iconify/icons-logos/angular-icon";
 // import reactIcon from "@iconify/icons-logos/react";
 
@@ -33,16 +33,16 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={csharpIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={nextjsIcon}
+                    style={{ fontSize: "300%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={mongoIcon}
+                    style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={javascriptIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={typeScriptIcon}
+                    style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
@@ -76,6 +76,7 @@ class About extends Component {
                       height: "auto",
                       fontSize: "132%",
                       lineHeight: "200%",
+                      paddingBottom: 50
                     }}
                   >
                     <br />
@@ -83,13 +84,8 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
-                    <span key="email" className="m-1">
-                      <a href="mailto:contact@ericnjuki.com" target="_blank" rel="noopener noreferrer">
-                        shoot me an email <i className="fa fa-envelope"></i>.
-                      </a>
-                    </span>
                     <span key="github" className="m-1">
-                      To see more projects, check out&nbsp;
+                      To see even more projects, check out&nbsp;
                       <a href="https://github.com/ericnjuki" target="_blank" rel="noopener noreferrer">
                           my GitHub <i className="fab fa-github"></i>
                       </a>
