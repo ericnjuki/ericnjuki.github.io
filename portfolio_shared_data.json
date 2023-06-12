@@ -24,9 +24,29 @@
     "skills": {
       "icons": [
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
           "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Next.js",
+          "class": "devicon-nextjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "Tailwind CSS",
+          "class": "devicon-tailwindcss-plain",
+          "level": "80"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "80"
         },
         {
           "name": "Angular",
@@ -42,6 +62,11 @@
           "name": ".NET Core",
           "class": "devicon-dotnetcore-plain",
           "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "70"
         },
         {
           "name": "Azure",
