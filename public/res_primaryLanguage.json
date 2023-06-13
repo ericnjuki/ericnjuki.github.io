@@ -73,7 +73,12 @@
       "startDate": "2022",
       "description": "TripTax is a service that enables you to quickly claim your tourist tax refunds and get paid anywhere in the world.",
       "images": [
-        "images/portfolio/tt/TT-Logo.png"
+        "images/portfolio/tt/TT-Logo.png",
+        "images/portfolio/tt/tt1.webp",
+        "images/portfolio/tt/tt2.webp",
+        "images/portfolio/tt/tt3.webp",
+        "images/portfolio/tt/tt4.webp",
+        "images/portfolio/tt/tt5.webp"
       ],
       "url": "https://triptax.com",
       "technologies": [
@@ -159,7 +164,9 @@
       "description": "A fintech solution for welfare/savings groups (chamas and saccos) to keep track of finances and loans",
       "images": [
         "images/portfolio/wekezapp/Wekezapp-Logo.png",
-        "images/portfolio/wekezapp/p2.jpg"
+        "images/portfolio/wekezapp/wekezapp1.png",
+        "images/portfolio/wekezapp/wekezapp2.png",
+        "images/portfolio/wekezapp/wekezapp3.png"
       ],
       "url": "https://github.com/ericnjuki/wekezapp",
       "technologies": [

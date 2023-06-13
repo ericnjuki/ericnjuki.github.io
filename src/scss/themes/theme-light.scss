@@ -4,4 +4,14 @@ body[data-theme="light"] {
     .slider-tab {
        background-color: #D7CAAA;
     }
+
+    #TT-img {
+        img {
+            height: 100%;
+            width: auto;
+            position: absolute;
+            top: 0;
+            left: 30%;
+        }
+    }
 }

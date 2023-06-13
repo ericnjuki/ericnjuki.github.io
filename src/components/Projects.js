@@ -44,7 +44,7 @@ class Projects extends Component {
                   </p>
                   {projects.technologies.map((tech) => {
                     return(
-                      <span className="en-tech-tag">{tech.name}</span>
+                      <span key={tech.name} className="en-tech-tag">{tech.name}</span>
                     )
                   })}
                 </div>

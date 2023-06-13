@@ -40,10 +40,18 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
+        var img;
         if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
+          if (title && title.toLowerCase() === 'triptax') {
+            img = images.map((elem, i) => {
+              if (i === 0) return <div key={i} data-src={elem} />;
+              else return <div id="TT-img" key={i} data-src={elem} />;
+            });
+          } else {
+            img = images.map((elem, i) => {
+              return <div key={i} data-src={elem} />;
+            });
+          }
         }
       }
     }
