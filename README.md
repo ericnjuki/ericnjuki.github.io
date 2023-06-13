@@ -23,3 +23,5 @@ View it <a href="https://ericnjuki.com"><strong>here</strong></a>
 You can find her and all the amazing people 
 who contributed to the project in the link
 </pre>
+
+<p>node version: 14.21.3</p>
